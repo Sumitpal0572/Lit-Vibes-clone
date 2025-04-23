@@ -13,7 +13,7 @@ html {
 header {
   position: absolute;
   top: 20px;
-  left: 40px;
+  left: 300px;
   z-index: 10;
 }
 
@@ -34,7 +34,7 @@ header {
 .hero {
   position: relative;
   height: 100vh;
-  background: url("https://cdn.prod.website-files.com/65c79e3fddb7ddfd8d7413fc/67e67c8d74f09620685387f4_blurrer.webp")
+  background: url("https://img.pikbest.com/backgrounds/20241212/vibrant-neon-lit-city-skyline-blending-80s-retro-futurism-with-cyberpunk-vibes_11239182.jpg!bwr800")
     no-repeat center center/cover;
   display: flex;
   align-items: center;
@@ -58,6 +58,7 @@ header {
   z-index: 2;
   max-width: 50%;
   color: white;
+  left: 200px;
 }
 
 .hero-content h1 {
@@ -147,15 +148,15 @@ header {
 }
 
 .cards-container img {
-  width: 700px; /* 🔼 was 160px */
+  width: 700px; 
   height: auto;
   border-radius: 8px;
-  box-shadow: 0 0 12px rgba(0, 0, 0, 0.4); /* Optional: more visible shadow */
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.4); 
   transition: transform 0.3s ease;
 }
 
 .cards-container img:hover {
-  transform: scale(1.05); /* Optional: slight zoom on hover */
+  transform: scale(1.05); 
 }
 
 .features-subheading {
@@ -213,26 +214,6 @@ header {
   display: flex;
   flex-direction: column;
 }
-
-/* .love-top {
-  flex: 1;
-  background: url("https://cdn.prod.website-files.com/65c79e3fddb7ddfd8d7413fc/67e67c8d74f09620685387f4_blurrer.webp")
-    center/cover no-repeat;
-  color: white;
-  padding: 40px 20px;
-  position: relative;
-}
-
-.love-top::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background-color: rgba(0, 0, 0, 0.6);
-  z-index: 0;
-} */
 
 .love-top h2 {
   position: relative;
